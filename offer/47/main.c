@@ -5,8 +5,8 @@ int main()
     printf("%x\n",a);
     printf("%x\n",&a);
     printf("%d\n",(int)a);
-    printf("%x\n",(int &)a);
-    printf("%x\n",(int *)a);
-    printf("%d",((int)a)==(int &)a);
+    //printf("%x\n",(int &)a);
+    //printf("%x\n",(int *)a);
+    //printf("%d",((int)a)==(int &)a);
     return 0;
 }
