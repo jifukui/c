@@ -1,12 +1,10 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int main()
 {
     float a=1.0;
-    printf("%x\n",a);
-    printf("%x\n",&a);
-    printf("%d\n",(int)a);
-    //printf("%x\n",(int &)a);
-    //printf("%x\n",(int *)a);
-    //printf("%d",((int)a)==(int &)a);
+    cout<<a<<endl;
+    cout<<(int)a<<endl;
+    cout<<(int &)a<<endl;
     return 0;
 }
