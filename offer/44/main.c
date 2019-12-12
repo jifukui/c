@@ -20,6 +20,6 @@ int data2()
 int main()
 {
     data1();
-    datat2();
+    data2();
     return 0;
 }
