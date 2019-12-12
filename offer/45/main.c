@@ -11,5 +11,7 @@ int main()
     {
         printf("The %d is %d\n",i,arry[i]);
     }
+    pre=arry;
+    printf("%d \n",*(pre++));
     return 0;
 }
