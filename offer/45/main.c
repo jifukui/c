@@ -6,7 +6,8 @@ int main()
     int *pre=arry;
     *(pre++)+=123;
     printf("%d,%d\n",*pre,*(++pre));
-    for(int i=0;i<5;i++)
+    int i;
+    for( i=0;i<5;i++)
     {
         printf("The %d is %d\n",i,arry[i]);
     }
