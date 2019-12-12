@@ -7,7 +7,7 @@ int main()
     cout<<(int)a<<endl;
     cout<<&a<<endl;
     cout<<(int &)a<<endl;
-    cout<<(int *)a<<endl;
-    cout<<(int)a==(int &)a<<endl;
+    cout<<(int *)&a<<endl;
+    cout<<((int)a==(int &)a)<<endl;
     return 0;
 }
